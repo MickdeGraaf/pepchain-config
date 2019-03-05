@@ -15,6 +15,7 @@ cors=["all"]
 
 [websockets]
 disable = false
+max_connections = 1000
 port = 8546
 interface = "all"
 origins = ["all"]
