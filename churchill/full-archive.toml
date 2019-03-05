@@ -7,9 +7,9 @@ keys_path = "./keys"
 port = 30300
 
 [rpc]
-disable = false
-port= 8545
-apis = ["web3","eth","net", "parity",  "traces"]
+apis = ["web3","eth","net", "parity", "traces"]
+processing_threads = 2
+server_threads = 2
 cors=["all"]
 
 [websockets]
