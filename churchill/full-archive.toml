@@ -7,6 +7,8 @@ keys_path = "./keys"
 port = 30300
 
 [rpc]
+disable = false
+port= 8545
 apis = ["web3","eth","net", "parity",  "traces"]
 cors=["all"]
 
