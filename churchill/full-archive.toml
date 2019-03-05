@@ -10,7 +10,7 @@ port = 30300
 apis = ["web3","eth","net", "parity", "traces"]
 processing_threads = 2
 server_threads = 2
-interface=["all"]
+interface="all"
 cors=["all"]
 
 [websockets]
