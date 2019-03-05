@@ -8,8 +8,8 @@ port = 30300
 
 [rpc]
 apis = ["web3","eth","net", "parity", "traces"]
-processing_threads = 2
-server_threads = 2
+processing_threads = 200
+server_threads = 200
 interface="all"
 cors=["all"]
 
