@@ -61,7 +61,7 @@ parity --config full-archive.toml
 - 5 From the account you deployed the locker contract from set the validator as the copied address
 - 6 Export the generated key from pepchain-config/churchill/keys and import it in metamask. (the password is the one you enterred in node.pwds)
 - 7 On the locker contract page in the voting dashboard click the "SET AS LOCKER" Button and approve the transaction
-- 8 Edit the validator signer value the correnspond with the outputted address on step 4 in full-archive-validator.toml
+- 8 Edit the engine_signer value in full-archive-validator.toml to be the address you copied at step 4
 - 9 run the following command: 
 ```
     parity --config full-archive-validator.toml
