@@ -64,7 +64,7 @@ parity --config full-archive.toml
 - 8 Edit the validator signer value the correnspond with the outputted address on step 4 in full-archive-validator.toml
 - 9 run the following command: 
 ```
-    parity --config --full-archive-validator.toml
+    parity --config full-archive-validator.toml
 ```
 
 Happy Validating
